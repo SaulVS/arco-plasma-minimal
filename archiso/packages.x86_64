@@ -7,7 +7,7 @@ arch-install-scripts
 #b43-fwcutter
 broadcom-wl
 btrfs-progs
-clonezilla
+#clonezilla
 crda
 darkhttpd
 ddrescue
@@ -52,7 +52,7 @@ ppp
 pptpclient
 refind-efi
 rp-pppoe
-rsync
+#rsync
 sdparm
 sg3_utils
 smartmontools
@@ -60,7 +60,7 @@ sudo
 tcpdump
 testdisk
 usb_modeswitch
-vim-minimal
+#vim-minimal
 vpnc
 wget
 wireless_tools
@@ -221,33 +221,49 @@ poppler-qt5
 #catfish
 #chromium
 #compton
-#darktable
+darktable
 #deadbeef
 #dmenu
 #evolution
 feh
-#firefox
+firefox
 #flashplugin
 #galculator
 #geany
-#gimp
+gimp
 #gmrun
 #gsimplecal
 #guvcview
 imagemagick
-#inkscape
-#libreoffice-fresh
+inkscape
+libreoffice-fresh
 meld
 #nitrogen
 numlockx
-pragha
+#pragha
 scrot
 #simplescreenrecorder
-termite
+#termite
 #tint2
 #transmission-gtk
-variety
+#variety
 vlc
+
+###########################
+#Software from Arch repo's for Saúl
+###########################
+
+keepassxc
+htop
+quodlibet
+texlive-most
+handbrake
+obs-studio
+dia
+pychess
+0ad
+lyx
+texmaker
 
 #conky
 #jq
@@ -391,8 +407,8 @@ zenity
 #############################
 
 #applications
-vivaldi
-vivaldi-codecs-ffmpeg-extra-bin
+#vivaldi
+#vivaldi-codecs-ffmpeg-extra-bin
 
 #cursors
 #breeze-cursors-lh
@@ -412,13 +428,13 @@ ttf-ms-fonts
 #faba-icon-theme
 #halo-icons-git
 #moka-icon-theme
-numix-circle-arc-icons-git
-numix-icon-theme-git
-numix-circle-icon-theme-git
+#numix-circle-arc-icons-git
+#numix-icon-theme-git
+#numix-circle-icon-theme-git
 #paper-icon-theme
 #papirus-icon-theme-git
-sardi-icons
-surfn-icons-git
+#sardi-icons
+#surfn-icons-git
 #zafiro-icon-theme
 
 #network
@@ -454,7 +470,7 @@ pamac-aur
 #pulseaudio-equalizer-ladspa
 #python-pywal
 #screenkey
-sublime-text-dev
+#sublime-text-dev
 #temps
 #tmux
 trizen
@@ -616,11 +632,11 @@ qt5-xmlpatterns
 #Desktop specific
 plasma
 #kde-applications-meta
-adapta-kde
-arc-kde
-kvantum-theme-adapta
-kvantum-theme-materia
-materia-kde
+#adapta-kde
+#arc-kde
+#kvantum-theme-adapta
+#kvantum-theme-materia
+#materia-kde
 partitionmanager
 ktorrent
 kdeconnect
